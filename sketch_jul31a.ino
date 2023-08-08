@@ -10,7 +10,7 @@
 #include <BlynkSimpleEsp8266.h>
 
 //----------------------------
-String URLL =  "http://myprojectiot11.000webhostapp.com/dbwrite.php";
+String URLL =  "http://myprojectiot11.000webhostapp.com/xxx.php";
 //----------------------------
 
 HTTPClient http ;  // http boject of class HTTPCLient
@@ -229,10 +229,10 @@ void loop()
     postData1 = "temperature="+sendval+"&humidity="+sendval2+"&moisture="+sendval3; ; 
   
   
-    String requestUrl = "https://myprojectiot11.000webhostapp.com/dbwrite.php";
+    String requestUrl = "https://myprojectiot11.000webhostapp.com/xxx.php";
   // Update Host URL here:-  
   
-    http1.begin(wclient1, "http://myprojectiot11.000webhostapp.com/dbwrite.php");              // Connect to host where MySQL databse is hosted
+    http1.begin(wclient1, "http://myprojectiot11.000webhostapp.com/xxx.php");              // Connect to host where MySQL databse is hosted
     http1.addHeader("Content-Type", "application/x-www-form-urlencoded");            //Specify content-type header
 
    
