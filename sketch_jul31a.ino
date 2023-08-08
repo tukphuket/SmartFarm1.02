@@ -45,8 +45,8 @@ int Humi;   //กำหนดตัวแปร Humi
 int Light;  //กำหนดตัวแปร Light
 
 char ssid[] = "Bookphuket_2.4G";  //ชื่อ WIFI
-char pass[] = "bookphuket2976";   //รหัส WIFI
-String GAS_ID = "AKfycby5gBbssDlg-ZSvQBBXWPCoQ47tN4fOE997Qt_C7ZA1dk4ahku_s3l0OmiocW3Je8zr8Q"; //--> spreadsheet script ID
+char pass[] = "xxx";   //รหัส WIFI
+String GAS_ID = ""; //--> spreadsheet script ID
 
 //Your Domain name with URL path or IP address with path
 const char* host = "script.google.com"; // only google.com not https://google.com
